@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Título para el navegador y los buscadores -->
+    <title>Contacto | Academia Conquerblocks</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta
+      name="description"
+      content="Formulario de contacto de la Academia Conquerblocks. Ponte en contacto con nosotros y déjanos tu mensaje."
+    />
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@jdelpuertopeix" />
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Codificación-->
+    <meta charset="UTF-8" />
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf" />
+  </head>
+
+  <body>
+    <header>
+      <figure>
+        <img
+          width="200px"
+          src="img/common/logotipo.png"
+          alt="Logotipo de Conquerblocks"
+        />
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienes-somos.html">Quiénes somos</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <h1>Contacta con nosotros</h1>
+      <p>Ponte en contacto con nosotros y pregúntanos todo lo que necesites.</p>
+      <section>
+        <form action="" method="get" name="formulariocontacto">
+          <fieldset>
+            <p>
+              <label for="name">Nombre</label>
+              <input type="text" name="name" id="name" />
+            </p>
+            <p>
+              <label for="surname">Apellidos</label>
+              <input type="text" name="surname" id="surname" />
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </p>
+            <p>
+              <label for="comment">Comentario</label><br />
+              <textarea
+                name="comment"
+                id="comment"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </p>
+          </fieldset>
+          <p><button>Enviar</button></p>
+        </form>
+      </section>
+
+      <section>
+        <h2>Dónde puedes encontrarnos:</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5976.196829393295!2d2.1012786765624947!3d41.50214207128551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4942a9b7b8f63%3A0x8a51bd1095fe826d!2sUniversitat%20Aut%C3%B2noma%20de%20Barcelona!5e0!3m2!1sen!2ses!4v1755154310362!5m2!1sen!2ses"
+          width="550"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <hr />
+    </main>
+
+    <footer>
+      <p>© Conquerblocks 2025 - <a href="aviso-legal.html">Aviso legal</a></p>
+    </footer>
+  </body>
+</html>
